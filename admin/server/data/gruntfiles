@@ -1,0 +1,126 @@
+{"k":"0000000078","o":"0000000189","v":"001"}
+{"_id":2,"_uid":2,"_dt":1446758364723,"_s":"44f41ef34cf43c6c98f741ccb56e4fa4"}
+{"name":"connect-history-api-fallback","version":"^1.1.0","desc":"Provides a fallback for non-existing directories so that the HTML 5 history API can be used.","_id":{"$wrap":"$oid","v":2}}
+{"k":"0000000078","o":"0000000100","v":"001"}
+{"_id":3,"_uid":3,"_dt":1446758364727,"_s":"a4b2336f1720bd49a2c6d50ba8bf9841"}
+{"name":"grunt","version":"^0.4.5","desc":"The JavaScript Task Runner","_id":{"$wrap":"$oid","v":3}}
+{"k":"0000000078","o":"0000000188","v":"001"}
+{"_id":4,"_uid":4,"_dt":1446758364729,"_s":"391233923a46633bbd0589938b2ae5c5"}
+{"name":"grunt-autoprefixer","version":"^3.0.1","desc":"Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer.","_id":{"$wrap":"$oid","v":4}}
+{"k":"0000000078","o":"0000000120","v":"001"}
+{"_id":5,"_uid":5,"_dt":1446758364729,"_s":"a722e8affbda2b6c15ac0199b4a6bd52"}
+{"name":"grunt-browser-sync","version":"^2.1.3","desc":"Live CSS reload & Browser Syncing","_id":{"$wrap":"$oid","v":5}}
+{"k":"0000000078","o":"0000000113","v":"001"}
+{"_id":6,"_uid":6,"_dt":1446758364732,"_s":"34235dc9934510bc473ceea95437ef40"}
+{"name":"grunt-concurrent","version":"^1.0.0","desc":"Run grunt tasks concurrently","_id":{"$wrap":"$oid","v":6}}
+{"k":"0000000078","o":"0000000112","v":"001"}
+{"_id":7,"_uid":7,"_dt":1446758364733,"_s":"1bd88a9264b9e381e11e41529848675e"}
+{"name":"grunt-contrib-clean","version":"^0.6.0","desc":"Clean files and folders.","_id":{"$wrap":"$oid","v":7}}
+{"k":"0000000078","o":"0000000107","v":"001"}
+{"_id":8,"_uid":8,"_dt":1446758364733,"_s":"4d01153fe054f1f5e7177aa8b3fa2fdc"}
+{"name":"grunt-contrib-concat","version":"^0.5.1","desc":"Concatenate files.","_id":{"$wrap":"$oid","v":8}}
+{"k":"0000000078","o":"0000000109","v":"001"}
+{"_id":9,"_uid":9,"_dt":1446758364733,"_s":"b46dab163c4a594c1d49931524cb9077"}
+{"name":"grunt-contrib-copy","version":"^0.8.0","desc":"Copy files and folders","_id":{"$wrap":"$oid","v":9}}
+{"k":"0000000080","o":"0000000101","v":"001"}
+{"_id":10,"_uid":10,"_dt":1446758364733,"_s":"48d4e1c0219152c8073a7ca252cfaa0a"}
+{"name":"grunt-contrib-cssmin","version":"^0.12.3","desc":"Minify CSS","_id":{"$wrap":"$oid","v":10}}
+{"k":"0000000080","o":"0000000102","v":"001"}
+{"_id":11,"_uid":11,"_dt":1446758364734,"_s":"6a252f30b029d3dff8c9ddb9455c1ece"}
+{"name":"grunt-contrib-htmlmin","version":"^0.4.0","desc":"Minify HTML","_id":{"$wrap":"$oid","v":11}}
+{"k":"0000000080","o":"0000000105","v":"001"}
+{"_id":12,"_uid":12,"_dt":1446758364735,"_s":"21a6d8302cbfc05150d814844829253b"}
+{"name":"grunt-contrib-imagemin","version":"^0.9.4","desc":"Minify images","_id":{"$wrap":"$oid","v":12}}
+{"k":"0000000080","o":"0000000118","v":"001"}
+{"_id":13,"_uid":13,"_dt":1446758364737,"_s":"661cc382ea57b0e29f40db829c8de186"}
+{"name":"grunt-contrib-jshint","version":"^0.11.2","desc":"Validate files with JSHint.","_id":{"$wrap":"$oid","v":13}}
+{"k":"0000000080","o":"0000000117","v":"001"}
+{"_id":14,"_uid":14,"_dt":1446758364737,"_s":"ac0236fac5a2c177091c6418059c21f5"}
+{"name":"grunt-contrib-uglify","version":"^0.9.1","desc":"Minify files with UglifyJS.","_id":{"$wrap":"$oid","v":14}}
+{"k":"0000000080","o":"0000000171","v":"001"}
+{"_id":15,"_uid":15,"_dt":1446758364737,"_s":"3eb1202027f71ef2e9118164f57aabe4"}
+{"name":"grunt-contrib-watch","version":"^0.6.1","desc":"Run predefined tasks whenever watched file patterns are added, changed or deleted.","_id":{"$wrap":"$oid","v":15}}
+{"k":"0000000080","o":"0000000119","v":"001"}
+{"_id":16,"_uid":16,"_dt":1446758364738,"_s":"d21f4386f6182512208b5fc89293608a"}
+{"name":"grunt-contrib-yuidoc","version":"^0.8.0","desc":"Compile YUIDoc Documentation.","_id":{"$wrap":"$oid","v":16}}
+{"k":"0000000080","o":"0000000179","v":"001"}
+{"_id":17,"_uid":17,"_dt":1446758364738,"_s":"67d04041a3c4cb15073cde38f1cdfba2"}
+{"name":"grunt-express-server","version":"^0.5.1","desc":"Grunt task for running an Express Server that works great with LiveReload + Watch/Regarde","_id":{"$wrap":"$oid","v":17}}
+{"k":"0000000080","o":"0000000130","v":"001"}
+{"_id":18,"_uid":18,"_dt":1446758364738,"_s":"219c8bb41f5f7ca1ddfa88f3422faec8"}
+{"name":"grunt-filerev","version":"^2.3.1","desc":"Asset revisioning by using file content hashing","_id":{"$wrap":"$oid","v":18}}
+{"k":"0000000080","o":"0000000177","v":"001"}
+{"_id":19,"_uid":19,"_dt":1446758364740,"_s":"cb639f5162489327a6b8f93cb79af87e"}
+{"name":"grunt-injector","version":"^0.6.0","desc":"Inject references to files into other files (think scripts and stylesheets into an html file)","_id":{"$wrap":"$oid","v":19}}
+{"k":"0000000080","o":"0000000116","v":"001"}
+{"_id":20,"_uid":20,"_dt":1446758364740,"_s":"9576fcdccb412ba2b8143eae0cd663d3"}
+{"name":"grunt-karma","version":"^0.11.0","desc":"grunt plugin for karma test runner","_id":{"$wrap":"$oid","v":20}}
+{"k":"0000000080","o":"0000000165","v":"001"}
+{"_id":21,"_uid":21,"_dt":1446758364740,"_s":"012ae499e7d380c0e3d76dceb98d09c0"}
+{"name":"grunt-newer","version":"^1.1.0","desc":"Run Grunt tasks with only those source files modified since the last successful run.","_id":{"$wrap":"$oid","v":21}}
+{"k":"0000000080","o":"0000000128","v":"001"}
+{"_id":22,"_uid":22,"_dt":1446758364741,"_s":"8768198108cc23d658a49b2083b4ff3d"}
+{"name":"grunt-plato","version":"^1.2.1","desc":"Generate complexity analysis reports with plato","_id":{"$wrap":"$oid","v":22}}
+{"k":"0000000080","o":"0000000138","v":"001"}
+{"_id":23,"_uid":23,"_dt":1446758364743,"_s":"b05b303f072fc0ec6e76f96217b70a91"}
+{"name":"grunt-protractor-runner","version":"^2.0.0","desc":"A Grunt plugin for running protractor runner.","_id":{"$wrap":"$oid","v":23}}
+{"k":"0000000080","o":"0000000161","v":"001"}
+{"_id":24,"_uid":24,"_dt":1446758364744,"_s":"036159afba3e81f1d84318b61b4f0c7f"}
+{"name":"grunt-protractor-webdriver","version":"^0.2.0","desc":"grunt plugin for starting Protractor's bundled Selenium Webdriver","_id":{"$wrap":"$oid","v":24}}
+{"k":"0000000080","o":"0000000170","v":"001"}
+{"_id":25,"_uid":25,"_dt":1446758364745,"_s":"af637c05542207b6a48221afe4da3096"}
+{"name":"grunt-run","version":"^0.3.0","desc":"Invite external commands into your grunt process with three tasks `run`, `wait` and `stop`.","_id":{"$wrap":"$oid","v":25}}
+{"k":"0000000080","o":"0000000092","v":"001"}
+{"_id":26,"_uid":26,"_dt":1446758364745,"_s":"9aa9529b26388fafb4c999d5a5021879"}
+{"name":"grunt-svgmin","version":"^2.0.1","desc":"Minify SVG","_id":{"$wrap":"$oid","v":26}}
+{"k":"0000000080","o":"0000000192","v":"001"}
+{"_id":27,"_uid":27,"_dt":1446758364745,"_s":"f8e7f45f4e9d29dc9d26e28648f8f25f"}
+{"name":"grunt-usemin","version":"^3.0.0","desc":"Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views).","_id":{"$wrap":"$oid","v":27}}
+{"k":"0000000080","o":"0000000083","v":"001"}
+{"_id":28,"_uid":28,"_dt":1446758364746,"_s":"49cdc8195f92943f8ca4b9cefa8819ac"}
+{"name":"grunt-wiredep","version":"^2.0.0","desc":"","_id":{"$wrap":"$oid","v":28}}
+{"k":"0000000080","o":"0000000123","v":"001"}
+{"_id":29,"_uid":29,"_dt":1446758364747,"_s":"dbc36b2373e005904beffe9d5ba1d4e3"}
+{"name":"http-proxy-middleware","version":"0.0.5","desc":"http-proxy middleware for connect","_id":{"$wrap":"$oid","v":29}}
+{"k":"0000000080","o":"0000000153","v":"001"}
+{"_id":30,"_uid":30,"_dt":1446758364750,"_s":"7756fac2a73a42c776e581d4cf389dc0"}
+{"name":"jasmine-core","version":"^2.3.4","desc":"Official packaging of Jasmine's core files for use by Node.js projects.","_id":{"$wrap":"$oid","v":30}}
+{"k":"0000000080","o":"0000000111","v":"001"}
+{"_id":31,"_uid":31,"_dt":1446758364750,"_s":"755c2f1751cc83f9a2f578ab9e154dd4"}
+{"name":"jshint-stylish","version":"^2.0.0","desc":"Stylish reporter for JSHint","_id":{"$wrap":"$oid","v":31}}
+{"k":"0000000080","o":"0000000116","v":"001"}
+{"_id":32,"_uid":32,"_dt":1446758364751,"_s":"fff21ddb8bcfecaf532092b7af21d524"}
+{"name":"karma","version":"^0.12.36","desc":"Spectacular Test Runner for JavaScript.","_id":{"$wrap":"$oid","v":32}}
+{"k":"0000000080","o":"0000000123","v":"001"}
+{"_id":33,"_uid":33,"_dt":1446758364751,"_s":"7fef21b6e092da481f056d64fbba42c4"}
+{"name":"karma-coverage","version":"^0.3.1","desc":"A Karma plugin. Generate code coverage.","_id":{"$wrap":"$oid","v":33}}
+{"k":"0000000080","o":"0000000138","v":"001"}
+{"_id":34,"_uid":34,"_dt":1446758364752,"_s":"710040e0b0807d4e6096b57026a72516"}
+{"name":"karma-jasmine","version":"^0.3.5","desc":"A Karma plugin - adapter for Jasmine testing framework.","_id":{"$wrap":"$oid","v":34}}
+{"k":"0000000080","o":"0000000133","v":"001"}
+{"_id":35,"_uid":35,"_dt":1446758364752,"_s":"76211a4297b1674e90fb2d4fc8bde0e0"}
+{"name":"karma-phantomjs-launcher","version":"^0.2.0","desc":"A Karma plugin. Launcher for PhantomJS.","_id":{"$wrap":"$oid","v":35}}
+{"k":"0000000080","o":"0000000139","v":"001"}
+{"_id":36,"_uid":36,"_dt":1446758364754,"_s":"8f86d98e36c6caef2321afbefd9565d5"}
+{"name":"load-grunt-configs","version":"^0.4.3","desc":"Loads grunt task configurations from separate files","_id":{"$wrap":"$oid","v":36}}
+{"k":"0000000080","o":"0000000135","v":"001"}
+{"_id":37,"_uid":37,"_dt":1446758364754,"_s":"af6b8dc9e2fa204f2f8253ebb7065f6f"}
+{"name":"load-grunt-tasks","version":"^3.2.0","desc":"Load multiple grunt tasks using globbing patterns","_id":{"$wrap":"$oid","v":37}}
+{"k":"0000000080","o":"0000000107","v":"001"}
+{"_id":38,"_uid":38,"_dt":1446758364755,"_s":"0871c9899e1f1ba1cb7c757535467b9b"}
+{"name":"phantomjs","version":"^1.9.17","desc":"Headless WebKit with JS API","_id":{"$wrap":"$oid","v":38}}
+{"k":"0000000080","o":"0000000119","v":"001"}
+{"_id":39,"_uid":39,"_dt":1446758364756,"_s":"35f8a9696b19670d57f648760807e1df"}
+{"name":"protractor","version":"^2.1.0","desc":"Webdriver E2E test wrapper for Angular.","_id":{"$wrap":"$oid","v":39}}
+{"k":"0000000080","o":"0000000119","v":"001"}
+{"_id":40,"_uid":40,"_dt":1446758364757,"_s":"bbf5ebd9b88b2a0309d5f1c53db5c64f"}
+{"name":"q","version":"^1.4.1","desc":"A library for promises (CommonJS/Promises/A,B,D)","_id":{"$wrap":"$oid","v":40}}
+{"k":"0000000080","o":"0000000129","v":"001"}
+{"_id":41,"_uid":41,"_dt":1446758364757,"_s":"23b3e9d93a41779e3b818b8135e68f2d"}
+{"name":"time-grunt","version":"^1.2.0","desc":"Display the elapsed execution time of grunt tasks","_id":{"$wrap":"$oid","v":41}}
+{"k":"0000000080","o":"0000000113","v":"001"}
+{"_id":42,"_uid":42,"_dt":1446758364757,"_s":"98aba084aee3a55f5c0b9ed4577ad6cb"}
+{"name":"body-parser","version":"^1.12.3","desc":"Node.js body parsing middleware","_id":{"$wrap":"$oid","v":42}}
+{"k":"0000000080","o":"0000000123","v":"001"}
+{"_id":43,"_uid":43,"_dt":1446758364757,"_s":"7e2047edabfee3a9d9e5ebc154c3dcf8"}
+{"name":"express","version":"^4.12.3","desc":"Fast, unopinionated, minimalist web framework","_id":{"$wrap":"$oid","v":43}}

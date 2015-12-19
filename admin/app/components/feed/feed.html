@@ -1,0 +1,65 @@
+<div ng-class="{'col-xs-6':feed.sourceInfo,'col-xs-12':!feed.sourceInfo}">
+  <div class="card"> 
+    <div class="card-header">
+      Feed
+      <form class="form-inline pull-right">
+        <div class="form-group">
+          <label for="typesearch">Type</label>
+          <select ng-model="search" class="form-control" id="typesearch" ng-options="item.type for item in feed.filterOptions">
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="card-block">
+      <table class="table table-striped table-sm" >
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Timestamp</th>
+            <th>Type</th>
+            <th ng-if="!feed.sourceInfo">Title</th>
+            <th ng-if="!feed.sourceInfo">Text</th>
+            <th ng-if="!feed.sourceInfo">Location</th>
+            <th ng-if="!feed.sourceInfo">Image</th>
+            <th colspan="3">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="(key, item) in feed.feed | filter : search.type">
+            <th scope="row">{{item.id}}</th>
+            <td class="small nowrap">{{item.timestamp}}</td>
+            <td>
+              <i class="fa fa-instagram" ng-if="item.type=='instagram'"></i>
+              <i class="fa fa-rss-square" ng-if="item.type=='blogger'"></i>
+              <i class="fa fa-globe" ng-if="item.type=='location'"></i>
+              <i class="fa fa-twitter" ng-if="item.type=='twitter'"></i>
+              <i class="fa fa-flickr" ng-if="item.type=='flickr'"></i>
+              <i class="fa fa-soundcloud" ng-if="item.type=='soundcloud'"></i>
+              <i class="fa fa-youtube" ng-if="item.type=='youtube'"></i>
+            </td>
+            <td ng-if="!feed.sourceInfo" class="small">{{item.title}}</td>
+            <td ng-if="!feed.sourceInfo" class="small">{{item.text}}</td>
+            <td ng-if="!feed.sourceInfo"><i ng-if="item.location" class="fa fa-map-marker" title="{{item.location|json}}" data-toggle="tooltip"></i></td>
+            <td ng-if="!feed.sourceInfo"><img ng-src="{{item.imageurl}}" width="40px" /></td>
+            <td><button ng-click="feed.info(item)" class="btn btn-sm" title="Info" ng-if="item.type!='location'"><i class="fa fa-info-circle"></i></button></td>
+            <td><button ng-click="feed.process(item)" class="btn btn-sm" title="Process" ng-if="item.type!='location'"><i class="fa fa-cogs"></i></button></td>
+            <td><button ng-click="feed.delete(item)" class="btn btn-sm" title="Delete"><i class="fa fa-trash-o"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div ng-if="feed.sourceInfo" class="col-xs-6">
+  <div class="card"> 
+    <div class="card-header">
+      Source
+      <button ng-click="feed.sourceInfo=null" class="btn btn-sm pull-right" title="Close">Close</button>
+    </div>
+    <div class="card-block">
+      <pre class="small">
+        {{feed.sourceInfo | json}}
+      </pre>
+    </div>
+  </div>
+</div>

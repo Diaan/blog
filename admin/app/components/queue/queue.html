@@ -1,0 +1,91 @@
+<div ng-class="{'col-xs-6':queue.sourceInfo,'col-xs-12':!queue.sourceInfo}">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card"> 
+        <div class="card-header">
+          Add item
+        </div>
+        <form ng-submit="queue.postItemToQueue(post)">
+          <div class="card-block">
+            <div class="form-group row">
+              <label for="posttype" class="col-sm-2 form-control-label">Type</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="posttype" ng-model="post.sourcetype" ng-options="item.type for item in queue.filterOptions"></select>
+              </div>
+            </div> 
+            <div class="form-group row">
+              <label for="posturl" class="col-sm-2 form-control-label">Url</label>
+              <div class="col-sm-10">
+                <input type="url" ng-model="post.url" class="form-control" id="posturl"/>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+            <input type="submit" class="btn btn-primary"/>
+          </div>
+        </form> 
+      </div>
+    </div>
+  </div>
+  <div class="card"> 
+    <div class="card-header">
+      Queue, to be processed
+      <form class="form-inline pull-right">
+        <div class="form-group">
+          <label for="typesearch">Type</label>
+          <select ng-model="search" class="form-control" id="typesearch" ng-options="item.type for item in queue.filterOptions">
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="card-block">
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Timestamp</th>
+            <th>Type</th>
+            <th ng-if="!queue.sourceInfo">URL</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="(key, item) in queue.queue | filter : search.type">
+            <th scope="row">{{item.id}}</th>
+            <td class="small nowrap">{{item.timestamp}}</td>
+            <td>
+              <i class="fa fa-instagram" ng-if="item.type=='instagram'"></i>
+              <i class="fa fa-rss-square" ng-if="item.type=='blogger'"></i>
+              <i class="fa fa-globe" ng-if="item.type=='location'"></i>
+              <i class="fa fa-twitter" ng-if="item.type=='twitter'"></i>
+              <i class="fa fa-flickr" ng-if="item.type=='flickr'"></i>
+              <i class="fa fa-soundcloud" ng-if="item.type=='soundcloud'"></i>
+              <i class="fa fa-youtube" ng-if="item.type=='youtube'"></i>
+            </td>
+            <td ng-if="!queue.sourceInfo"><a ng-href="{{item.url}}" target="_blank">{{item.url}}</a></td>
+            <td>{{item.processed}}</td>
+            <td><button class="btn btn-sm" ng-click="queue.info(item)" title="Info"><i class="fa fa-info-circle"></i></button></td>
+            <td><button class="btn btn-sm" ng-click="queue.process(item)" title="Process"><i class="fa fa-cogs"></i></button></td>
+            <td><button class="btn btn-sm" ng-click="queue.delete(item)" title="Delete"><i class="fa fa-trash-o"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div ng-if="queue.sourceInfo" class="col-xs-6">
+  <div class="card"> 
+    <div class="card-header">
+      Source
+      <button ng-click="queue.sourceInfo=null" class="btn btn-sm pull-right" title="Close">Close</button>
+    </div>
+    <div class="card-block">
+      <pre class="small">
+        {{queue.sourceInfo | json}}
+      </pre>
+    </div>
+  </div>
+</div>

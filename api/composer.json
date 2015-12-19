@@ -1,0 +1,10 @@
+{
+    "require": {
+        "google/apiclient": "1.0.*@beta",
+        "slim/slim": "*",
+        "dogancelik/slim-json": "dev-master",
+        "abraham/twitteroauth": "dev-master",
+        "j7mbo/twitter-api-php": "dev-master",
+        "cosenary/instagram":"dev-master"
+    }
+}
